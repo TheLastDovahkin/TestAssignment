@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+
 .header {
   position: absolute;
   width: 1920px;
@@ -98,8 +99,7 @@ background-clip: text;
   text-transform: uppercase;
   color: #252525;
   flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 .textMessage {
