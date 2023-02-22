@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  position: absolute;
+  width: 1920px;
+  height: 115px;
+  background-color: #FFFFFF;
+
+}
+
+.App-logo {
+position: absolute;
+width: 170px;
+height: 29px;
+left: 202px;
+top: 43px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+background: linear-gradient(180deg, #14125F 43.75%, rgba(30, 28, 117, 0.21) 79.17%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.body {
+  background: linear-gradient(180deg, #FFF5DD 1.6%, rgba(170, 86, 254, 0.32) 38.13%, rgba(254, 86, 217, 0.28) 58.65%, rgba(86, 254, 254, 0.28) 99.73%);
+  position: absolute;
+  width: 1920px;
+  height: 864px;
+  left: 0px;
+  top: 109px;
+}
+
+.appStoreIcon {
+  position: absolute;
+  width: 221px;
+  height: 65px;
+  left: 202px;
+  top: 639px;
+}
+
+.googlePlayIcon {
+  position: absolute;
+  width: 224px;
+  height: 66px;
+  left: 446px;
+  top: 639px;
+}
+
+.fitCoinLabel {
+  position: absolute;
+  width: 426.38px;
+  height: 504.03px;
+  left: 1181px;
+  top: 192.4px;
+  transform: matrix(0.92, 0.38, -0.37, 0.93, 0, 0);
+}
+
+.vectorLabel {
+  position: absolute;
+  width: 843.06px;
+  height: 609.35px;
+  left: 1226.27px;
+  top: 155px;
+  transform: rotate(9.04deg);
+}
+
+.textTitle {
+  position: absolute;
+  top: 225px;
+  left: 202px;
+  width: 488px;
+  height: 231px;
+  font-family: 'Fredoka', sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.textMessage {
+  position: absolute;
+  top: 492px;
+  left: 202px;
+  width: 743px;
+  height: 87px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #626262;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 52px;
+  position: absolute;
+  width: 445px;
+  height: 19px;
+  left: 664px;
+  top: 49px;
+}
+
+.headerButton {
+  width: 84px;
+  height: 19px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.DownloadButton {
+  background: linear-gradient(180deg, #8B1CFB 0%, #B02CDF 100%);
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  position: absolute;
+  width: 219px;
+  height: 51px;
+  left: 1499px;
+  top: 32px;
+}
+
+.DownloadText {
+  position: absolute;
+  right: 14.61%;
+  top: 31.37%;
+  bottom: 31.37%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+   
+}
+
+.Down {
+  position: absolute;
+  width: 1920px;
+  height: 453px;
+  left: 1px;
+  top: 973px;
+  background: linear-gradient(94.9deg, #FFF5DD 1.6%, rgba(170, 86, 254, 0.32) 38.13%, rgba(254, 86, 217, 0.28) 58.65%, rgba(86, 254, 254, 0.28) 99.73%);
+}
+
+.advantages {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 116px;
+
+position: absolute;
+width: 1208px;
+height: 253px;
+left: 357px;
+top: 100px;
+}
+
+.conteiner {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 326px;
+height: 253px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.icon {
+width: 48px;
+height: 48px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.vectorIconHeight {
+  height: 42px;
+}
+
+.vectorOrder {
+  order: 2;
+}
+
+.title {
+  width: 326px;
+  height: 76px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.message {
+  width: 325px;
+height: 99px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #1B1B20;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
